@@ -69,5 +69,8 @@ function updateItem() {
 
     closeInput();
     return false;
+}
 
+function closeInput() {
+    document.getElementById('editForm').style.display = 'none';
 }
