@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ToDoListAPI.Models
 {   
-    //DTO is Data Transfer object; it's used for securit purposes
+    //DTO is Data Transfer object; it's used for security purposes
     public class TodoItemDTO
     {
         public long Id { get; set; }
